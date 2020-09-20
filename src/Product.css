@@ -24,13 +24,22 @@
 }
 
 .product > button {
-  background: #f0c14b;
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
   border: 1px solid;
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
   cursor: pointer;
   transition: all 0.3s ease;
+}
+
+.product > button:hover {
+  background: linear-gradient(to bottom, #f5d78e, #eeb933);
+}
+
+.product > button:active {
+  border-color: #a88734 #9c7e31 #9c7e31;
+  background: #f0c14b;
 }
 
 .product__price {

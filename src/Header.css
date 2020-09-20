@@ -32,7 +32,12 @@
 .header__searchIcon {
   padding: 5px;
   height: 26px !important;
-  background-color: #cd9042;
+  background-color: #f0c14b;
+  cursor: pointer;
+}
+
+.header__searchIcon:hover {
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
 }
 
 .header__nav {
